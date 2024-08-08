@@ -1,16 +1,12 @@
-// External imports should come first
 import { Route, Switch, Redirect } from "react-router-dom";
 import routes from "routes";
 
-// Internal imports should come after
 import "./App.css";
 import Cart from "./components/Cart";
 import Checkout from "./components/Checkout";
 import { PageNotFound } from "./components/commons";
 import Product from "./components/Product";
 import ProductList from "./components/ProductList";
-
-// Move this if it's actually needed here
 
 const App = () => (
   <Switch>
